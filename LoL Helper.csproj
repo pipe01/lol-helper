@@ -37,6 +37,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Taskbar Toolbox\Toolbox Editor\bin\Debug\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Riot.NET, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>riot.net\bin\Release\Riot.NET.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -198,12 +202,6 @@
     <Content Include="TierIcons\silver_v.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\GitHub Reps\riot-net\Riot.NET.csproj">
-      <Project>{a94051b4-85bb-4067-9fc0-0b205faee361}</Project>
-      <Name>Riot.NET</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

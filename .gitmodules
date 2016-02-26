@@ -1,0 +1,4 @@
+[submodule "riot.net"]
+	path = riot.net
+	url = https://github.com/pipe01/riot-net
+	branch = master
